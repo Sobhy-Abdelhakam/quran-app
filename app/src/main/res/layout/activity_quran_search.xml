@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.sobhy.quran.ui.reading.search.QuranSearch">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <androidx.appcompat.widget.Toolbar
+            app:title="@string/search_toolbar_title"
+            app:titleTextColor="@color/white"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <Spinner
+            android:id="@+id/quran_search_spinner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/_6sdp"
+            android:entries="@array/search_type"
+            android:minHeight="48dp"
+            android:padding="@dimen/_6sdp"
+            style="@style/Widget.AppCompat.Spinner.Underlined"/>
+
+        <EditText
+            android:id="@+id/quran_search_edit_text"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_40sdp"
+            android:background="@color/white"
+            android:hint="@string/search_edit_text_hint"
+            android:textSize="@dimen/_16ssp"
+            android:layout_margin="@dimen/_6sdp"
+            android:padding="@dimen/_8sdp"
+            android:drawableStart="@drawable/ic_search"
+            android:drawablePadding="@dimen/_8sdp"
+            android:inputType="text" />
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <TextView
+        android:id="@+id/quran_research_results"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/search_result_text"
+        android:textSize="@dimen/_14ssp"
+        android:padding="@dimen/_6sdp"
+        android:background="?android:attr/listDivider"/>
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/quran_search_recycler_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            tools:listitem="@layout/quran_search_item_view"
+            app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"/>
+
+</LinearLayout>

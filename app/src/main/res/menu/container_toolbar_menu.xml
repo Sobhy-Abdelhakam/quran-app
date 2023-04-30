@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/container_menu_search"
+        android:title="@string/search_for_ayah"/>
+    <item
+        android:id="@+id/container_menu_moveto"
+        android:title="@string/index"/>
+    <item
+        android:id="@+id/container_menu_shange_color"
+        android:icon="@drawable/ic_color_fill"
+        android:title="@string/change_background_color"
+        app:showAsAction="always"/>
+</menu>

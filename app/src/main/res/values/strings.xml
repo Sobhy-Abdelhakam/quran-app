@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">Guidance&amp;Healing</string>
+    <string name="islamic">Islamic</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="search_toolbar_title">search for ayah</string>
+    <string name="search_edit_text_hint">write a word</string>
+    <string name="search_result_text">research results: </string>
+
+    <string name="search_result_text_of_ayah">the text of ayah in this text view</string>
+    <string name="search_btn_move">move</string>
+    <string name="index">Index</string>
+    <string name="soras">soras</string>
+    <string name="jozz">jozz</string>
+    <string name="search_for_ayah">search for ayah</string>
+    <string name="change_background_color">change background color</string>
+
+    <string name="reciter">reciter</string>
+    <string name="download">download</string>
+    <string name="search_btn_tafseer">tafseer</string>
+
+    <string-array name="search_type">
+        <item>search for ayah contain</item>
+        <item>start with</item>
+        <item>end with</item>
+    </string-array>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="main_activity">Main Activity</string>
+    <string name="no_download_found">No download found</string>
+    <string name="developer_message">Developed by: Sobhy Abdel Hakam</string>
+    <string name="reading">reading</string>
+    <string name="listening">Listening</string>
+    <string name="choose_edition">Choose edition</string>
+    <string name="saudi_edition">Saudi edition</string>
+    <string name="shamarly_edition">Al-Shamraly edition</string>
+    <string name="has_been_selected">you select </string>
+    <string name="no_reciters_data_toast">There is no internet connection and no reciters in the database</string>
+    <string name="canot_download_file">Can\'t download file</string>
+    <string name="no_internet">There is no internet connection</string>
+
+</resources>

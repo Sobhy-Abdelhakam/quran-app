@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">هدى وشفاء</string>
+    <string name="islamic">اسلامي</string>
+    <string name="search_toolbar_title">بحث عن آية</string>
+    <string name="search_edit_text_hint">اكتب كلمة أو جزء من آية</string>
+    <string name="search_result_text">نتائج البحث</string>
+
+    <string name="search_result_text_of_ayah">بسم الله الرحمن الرحيم</string>
+    <string name="search_btn_move">انتقال</string>
+    <string name="index">الفهرس</string>
+    <string name="soras">السور</string>
+    <string name="jozz">الأجزاء</string>
+    <string name="search_for_ayah">بحث عن آية</string>
+    <string name="change_background_color">لون خلفية المصحف</string>
+
+    <string name="reciter">القرّاء</string>
+    <string name="download">التحميلات</string>
+    <string name="search_btn_tafseer">تفسير</string>
+    <string name="main_activity">الصفحة الرئيسية</string>
+    <string name="no_download_found">لا يوجد تحميلات</string>
+    <string name="developer_message">تطوير وتنفيذ: صبحي عبد الحكم</string>
+    <string name="reading">قرآءة</string>
+    <string name="listening">استماع</string>
+    <string name="choose_edition">اختر الطبعة</string>
+    <string name="saudi_edition">الطبعة السعودية</string>
+    <string name="shamarly_edition">طبعة الشمرلي (الطبعة المصرية)</string>
+    <string name="has_been_selected">تم اختيار </string>
+    <string name="no_reciters_data_toast">لا يوجد اتصال بالإنترنت ولا يوجد قرآء في قاعدة البيانات</string>
+    <string name="canot_download_file">لا يمكن تحميل الملف</string>
+    <string name="no_internet">لا يوجد اتصال بالانترنت</string>
+
+    <string-array name="search_type">
+        <item>تحتوي على</item>
+        <item>تبدأ ب</item>
+        <item>تنتهي ب</item>
+    </string-array>
+
+</resources>
